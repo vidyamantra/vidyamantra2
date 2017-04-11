@@ -10415,21 +10415,21 @@ em {
 
 .bar-content {
   border-color: transparent;
-  background-color: #387EF5;
+  background-color: #f70;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #fff; }
   .bar-content .title {
     color: #fff; }
   .bar-content .button {
     border-color: transparent;
-    background-color: #387EF5;
+    background-color: #f70;
     color: #fff; }
     .bar-content .button:hover {
       color: #fff;
       text-decoration: none; }
     .bar-content .button.active, .bar-content .button.activated {
       border-color: transparent;
-      background-color: #387EF5; }
+      background-color: #f70; }
     .bar-content .button.button-clear {
       border-color: transparent;
       background: none;
@@ -11656,6 +11656,26 @@ mm-course-mod-description .card .item, mm-course-mod-description .card .mm-grade
   outline: none;
   z-index: 100; }
 
+.mm-mm_login_sites .item-thumbnail-left .item-content {
+  padding-top: 16px;
+  padding-right: 16px; }
+
+.mm-mm_login_sites .list-left-editing .item-thumbnail-left .item-content {
+  padding-right: 49px; }
+
+.mm-mm_login_sites .avatar {
+  margin: 0;
+  width: 80px;
+  height: 80px;
+  max-width: 80px;
+  max-height: 80px;
+  border-radius: 50%;
+  padding: 4px;
+  border: 1px solid #ddd; }
+
+.mm-login-sitepolicy-iframe {
+  height: 300px; }
+
 /* - User grades table (most of it extracted from MM1)
 -------------------------------------------------------------------------- */
 .mm-grades-container {
@@ -11733,26 +11753,6 @@ mm-course-mod-description .card .item, mm-course-mod-description .card .mm-grade
     border-right: 1px solid #ddd;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd; }
-
-.mm-mm_login_sites .item-thumbnail-left .item-content {
-  padding-top: 16px;
-  padding-right: 16px; }
-
-.mm-mm_login_sites .list-left-editing .item-thumbnail-left .item-content {
-  padding-right: 49px; }
-
-.mm-mm_login_sites .avatar {
-  margin: 0;
-  width: 80px;
-  height: 80px;
-  max-width: 80px;
-  max-height: 80px;
-  border-radius: 50%;
-  padding: 4px;
-  border: 1px solid #ddd; }
-
-.mm-login-sitepolicy-iframe {
-  height: 300px; }
 
 .mm-question-textarea {
   width: 100%;
@@ -11880,7 +11880,7 @@ li.mm-question-answer-incorrect,
 
 .bar-side-menu {
   border-color: transparent;
-  background-color: #387EF5;
+  background-color: #f70;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #fff;
   height: 80px !important; }
@@ -11918,6 +11918,15 @@ li.mm-question-answer-incorrect,
 .mm-site_mm_user-profile .mm-tab-handlers {
   padding-bottom: 16px; }
 
+.mm-site_coursesgrades .item .badge, .mm-site_coursesgrades .mm-grades-table .itemcenter .badge, .mm-grades-table .mm-site_coursesgrades .itemcenter .badge, .mm-site_coursesgrades .item .mma-messages-date span, .mma-messages-date .mm-site_coursesgrades .item span, .mm-site_coursesgrades .mm-grades-table .itemcenter .mma-messages-date span, .mma-messages-date .mm-site_coursesgrades .mm-grades-table .itemcenter span, .mm-grades-table .mm-site_coursesgrades .itemcenter .mma-messages-date span, .mma-messages-date .mm-grades-table .mm-site_coursesgrades .itemcenter span, .mm-site_coursesgrades .item
+.mma-messages-unreadfrom span,
+.mma-messages-unreadfrom .mm-site_coursesgrades .item span, .mm-site_coursesgrades .mm-grades-table .itemcenter
+.mma-messages-unreadfrom span,
+.mma-messages-unreadfrom .mm-site_coursesgrades .mm-grades-table .itemcenter span, .mm-grades-table .mm-site_coursesgrades .itemcenter
+.mma-messages-unreadfrom span,
+.mma-messages-unreadfrom .mm-grades-table .mm-site_coursesgrades .itemcenter span, .mm-site_coursesgrades .item .mma-chat-notice span, .mma-chat-notice .mm-site_coursesgrades .item span, .mm-site_coursesgrades .mm-grades-table .itemcenter .mma-chat-notice span, .mma-chat-notice .mm-site_coursesgrades .mm-grades-table .itemcenter span, .mm-grades-table .mm-site_coursesgrades .itemcenter .mma-chat-notice span, .mma-chat-notice .mm-grades-table .mm-site_coursesgrades .itemcenter span {
+  right: 16px; }
+
 .mm-site_frontpage .mma-frontpage-item-container .item-media {
   min-height: 55px;
   padding-left: 54px; }
@@ -11932,15 +11941,6 @@ li.mm-question-answer-incorrect,
 .mm-site_frontpage .mm-frontpageitemnews .mm-module-buttons {
   width: 30px;
   height: 22px; }
-
-.mm-site_coursesgrades .item .badge, .mm-site_coursesgrades .mm-grades-table .itemcenter .badge, .mm-grades-table .mm-site_coursesgrades .itemcenter .badge, .mm-site_coursesgrades .item .mma-messages-date span, .mma-messages-date .mm-site_coursesgrades .item span, .mm-site_coursesgrades .mm-grades-table .itemcenter .mma-messages-date span, .mma-messages-date .mm-site_coursesgrades .mm-grades-table .itemcenter span, .mm-grades-table .mm-site_coursesgrades .itemcenter .mma-messages-date span, .mma-messages-date .mm-grades-table .mm-site_coursesgrades .itemcenter span, .mm-site_coursesgrades .item
-.mma-messages-unreadfrom span,
-.mma-messages-unreadfrom .mm-site_coursesgrades .item span, .mm-site_coursesgrades .mm-grades-table .itemcenter
-.mma-messages-unreadfrom span,
-.mma-messages-unreadfrom .mm-site_coursesgrades .mm-grades-table .itemcenter span, .mm-grades-table .mm-site_coursesgrades .itemcenter
-.mma-messages-unreadfrom span,
-.mma-messages-unreadfrom .mm-grades-table .mm-site_coursesgrades .itemcenter span, .mm-site_coursesgrades .item .mma-chat-notice span, .mma-chat-notice .mm-site_coursesgrades .item span, .mm-site_coursesgrades .mm-grades-table .itemcenter .mma-chat-notice span, .mma-chat-notice .mm-site_coursesgrades .mm-grades-table .itemcenter span, .mm-grades-table .mm-site_coursesgrades .itemcenter .mma-chat-notice span, .mma-chat-notice .mm-grades-table .mm-site_coursesgrades .itemcenter span {
-  right: 16px; }
 
 .mma-messages-date,
 .mma-messages-unreadfrom {
