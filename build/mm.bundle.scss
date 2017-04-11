@@ -1533,33 +1533,6 @@ mm-course-mod-description .card .item {
     }
 }
 
-
-.mm-mm_login_sites {
-  .item-thumbnail-left .item-content {
-    padding-top: $item-padding;
-    padding-right: $item-padding;
-  }
-
-  .list-left-editing .item-thumbnail-left .item-content {
-    padding-right: (ceil( ($item-padding * 3) + ($item-padding / 3) ) - 5);
-  }
-
-  .avatar {
-    margin: 0;
-    width: 80px;
-    height: 80px;
-    max-width: 80px;
-    max-height: 80px;
-    border-radius : 50%;
-    padding: 4px;
-    border: 1px solid #ddd;
-  }
-}
-
-.mm-login-sitepolicy-iframe {
-  height: 300px;
-}
-
 /* - User grades table (most of it extracted from MM1)
 -------------------------------------------------------------------------- */
 .mm-grades-container {
@@ -1662,6 +1635,33 @@ mm-course-mod-description .card .item {
     border-top: 1px solid $item-light-border;
     border-bottom: 1px solid $item-light-border;
   }
+}
+
+
+.mm-mm_login_sites {
+  .item-thumbnail-left .item-content {
+    padding-top: $item-padding;
+    padding-right: $item-padding;
+  }
+
+  .list-left-editing .item-thumbnail-left .item-content {
+    padding-right: (ceil( ($item-padding * 3) + ($item-padding / 3) ) - 5);
+  }
+
+  .avatar {
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius : 50%;
+    padding: 4px;
+    border: 1px solid #ddd;
+  }
+}
+
+.mm-login-sitepolicy-iframe {
+  height: 300px;
 }
 
 
@@ -1839,9 +1839,6 @@ $bar-side-menu-text-color: $bar-content-text !default;
     padding-bottom: 16px;
 }
 
-.mm-site_coursesgrades .item .badge {
-  right: 16px;
-}
 .mm-site_frontpage {
     .mma-frontpage-item-container .item-media {
         min-height: 55px;
@@ -1864,6 +1861,9 @@ $bar-side-menu-text-color: $bar-content-text !default;
             height: 22px;
         }
     }
+}
+.mm-site_coursesgrades .item .badge {
+  right: 16px;
 }
 $mma-messages-date-badge: "stable" !default;
 
